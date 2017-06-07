@@ -85,9 +85,9 @@ class CheckGMail:
     def check_mail(self):
         print 'check'
         try:
-            gmail_unread = self.imap_checker('imap.gmail.com','hechuangqiang@gmail.com','hkq13832304030')
-            m139_unread = self.m139_checker('13730107785@139.com','hkq13832304030')
-            qq_unread = self.imap_checker('imap.qq.com', '466867714@qq.com', '13832304030')
+            gmail_unread = self.imap_checker('imap.gmail.com','test@gmail.com','xxxxxx')
+            m139_unread = self.m139_checker('13888888888@139.com','xxxxxx')
+            qq_unread = self.imap_checker('imap.qq.com', '88888888@qq.com', 'xxxxxx')
             
             total = gmail_unread + m139_unread + qq_unread
             
